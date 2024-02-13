@@ -1,6 +1,8 @@
 'use client'
+
 import React, { useState, useEffect } from 'react';
 import ProgressBarLoader from './components/ProgressBarLoader';
+import { IntroSection } from './components/Introduction';
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -14,15 +16,14 @@ export default function Home() {
   }, []);
 
   return (
-    <main>
+    <div className='container-md'>
       {loading ? (
         <ProgressBarLoader />
       ) : (
-        <div>
-        {/* Contenu de votre page une fois le chargement terminé */}
-        <h1>Bienvenue sur votre application Next.js</h1>
-      </div>
+        <div className='container-md'>
+          <IntroSection />
+        </div>
     )}
-  </main>
+  </div>
   );
 };

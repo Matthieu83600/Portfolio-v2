@@ -22,7 +22,9 @@ export default function RootLayout({
       <body className="${inter.className} bg-slate-50 dark:bg-slate-950 mx-6">
         <ThemeContext>
           <Header />
-          {children}
+          <main>
+            {children}
+          </main>
           <Footer />
         </ThemeContext>
       </body>
