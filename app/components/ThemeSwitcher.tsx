@@ -27,7 +27,7 @@ export const ThemeSwitcher = () => {
 				exit={exit}
 				transition={transition}
 			>
-				{currentTheme === "dark" ? <BsSun fill="yellow"/> : <BsMoon fill="dark"/>}
+				{currentTheme === "dark" ? <BsSun size={24} fill="yellow"/> : <BsMoon size={24} fill="dark"/>}
 			</m.button>
 		</LazyMotion>
 	);

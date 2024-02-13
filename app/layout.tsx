@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ThemeContext } from "./providers";
+import { Header } from "./components/Header";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -17,8 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr-FR" suppressHydrationWarning>
-      <body className="${inter.className} bg-slate-50 dark:bg-slate-950">
+      <body className="${inter.className} bg-slate-50 dark:bg-slate-950 mx-6">
         <ThemeContext>
+          <Header />
           {children}
         </ThemeContext>
       </body>
