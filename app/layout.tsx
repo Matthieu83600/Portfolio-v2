@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { ThemeContext } from "./providers";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -15,8 +16,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="fr-FR" suppressHydrationWarning>
+      <body className="${inter.className} bg-slate-50 dark:bg-slate-950">
+        <ThemeContext>
+          {children}
+        </ThemeContext>
+      </body>
     </html>
   );
 }
