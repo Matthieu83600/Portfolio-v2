@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr-FR" suppressHydrationWarning>
-      <body className="${inter.className} bg-slate-50 dark:bg-slate-950 mx-6">
+      <body className="${inter.className} bg-slate-50 dark:bg-slate-950 mx-8">
         <ThemeContext>
           <Header />
           <main>

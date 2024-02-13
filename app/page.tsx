@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import ProgressBarLoader from './components/ProgressBarLoader';
 import { IntroSection } from './components/Introduction';
+import { AboutSection } from './components/About';
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -10,7 +11,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 3500);
 
     return () => clearTimeout(timer);
   }, []);
@@ -22,6 +23,7 @@ export default function Home() {
       ) : (
         <div className='container-md'>
           <IntroSection />
+          <AboutSection />
         </div>
     )}
   </div>
