@@ -111,7 +111,7 @@ export function IntroSection() {
 								href="#projects"
 								onClick={onClick}
 								tabIndex="0"
-								className="rounded-md bg-blue-700 p-2"
+								className="rounded-md bg-blue-700 p-2 text-slate-50"
 								aria-label="Latest projects"
 							>
 								Voir mes derniers projets
