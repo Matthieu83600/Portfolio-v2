@@ -1,8 +1,8 @@
 'use client'
 import React, { useState, useEffect } from 'react';
-import ProgressBarLoader from './components/ProgressBarLoader';
+import ProgressBarLoader from '../components/ProgressBarLoader';
 
-export default function Home() {
+export default function Credits() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ export default function Home() {
       ) : (
         <div>
         {/* Contenu de votre page une fois le chargement terminé */}
-        <h1>Bienvenue sur votre application Next.js</h1>
+        <h1>Crédits</h1>
       </div>
     )}
   </main>

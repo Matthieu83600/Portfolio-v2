@@ -47,7 +47,7 @@ export function Menu({ onClick = () => {} }) {
 			<Link
 				href={SITE_ROUTES.home}
 				title={SITE_STRINGS.backToMainPageTitle}
-				className="icon-link-btn"
+				className="flex items-center gap-5"
 			>
 				<span>
 					<BsArrowReturnLeft />
@@ -58,6 +58,8 @@ export function Menu({ onClick = () => {} }) {
 	);
 
 	content = pathname === SITE_ROUTES.projects ? backMenu : mainMenu;
+	content = pathname === SITE_ROUTES.mentions ? backMenu : mainMenu;
+	content = pathname === SITE_ROUTES.credits ? backMenu : mainMenu;
 
 	if (MENU_OPTIONS.length === 0) {
 		return null;

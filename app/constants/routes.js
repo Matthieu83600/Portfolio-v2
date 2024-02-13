@@ -1,4 +1,6 @@
 export const SITE_ROUTES = {
 	home: "/",
-	projects: "/projects"
+	projects: "/projects",
+	mentions: "/mentions-legales",
+	credits: "/credits"
 };
