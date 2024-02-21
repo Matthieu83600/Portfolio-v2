@@ -26,7 +26,7 @@ export function AboutSection() {
                 >
                         <Image
                             src="/moi.webp"
-                            width={320}
+                            width={300}
                             height={0}
                             style={{width:'320px', height:'auto'}}
                             alt="ma photo"

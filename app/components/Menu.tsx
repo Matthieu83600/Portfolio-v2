@@ -57,7 +57,7 @@ export function Menu({ onClick = () => {} }) {
 		</m.div>
 	);
 
-	content = pathname !== SITE_ROUTES.home ? backMenu : mainMenu;
+	content = pathname === SITE_ROUTES.home ? mainMenu : backMenu;
 
 	if (MENU_OPTIONS.length === 0) {
 		return null;
