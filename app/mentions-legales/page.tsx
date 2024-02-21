@@ -1,10 +1,12 @@
 'use client'
-import React, { useState, useEffect } from 'react';
+
+import React, { useEffect, useState } from "react";
 import ProgressBarLoader from '../components/ProgressBarLoader';
+import { MentionsLegales } from "../components/mentions";
 
 export default function Mentions() {
   const [loading, setLoading] = useState(true);
-
+  
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
@@ -14,15 +16,14 @@ export default function Mentions() {
   }, []);
 
   return (
-    <main>
+    <div className='container-md'>
       {loading ? (
         <ProgressBarLoader />
       ) : (
-        <div>
-        {/* Contenu de votre page une fois le chargement terminé */}
-        <h1>Mentions légales</h1>
-      </div>
+        <div className="container-md">
+          <MentionsLegales />
+        </div>
     )}
-  </main>
+  </div>
   );
 };
