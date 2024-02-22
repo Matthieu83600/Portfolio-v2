@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import ProgressBarLoader from './components/ProgressBarLoader';
 import { IntroSection } from './components/Introduction';
 import { AboutSection } from './components/About';
+import { TechnologiesSection } from './components/Technologies';
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -24,8 +25,9 @@ export default function Home() {
         <div className='container-md'>
           <IntroSection />
           <AboutSection />
+          <TechnologiesSection />
         </div>
     )}
-  </div>
+    </div>
   );
 };
