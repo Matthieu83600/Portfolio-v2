@@ -3,7 +3,7 @@ import { DiCss3, DiJqueryLogo, DiVisualstudio } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaSass, FaReact, FaNode, FaGitAlt, FaFigma, FaTrello, FaSlack } from "react-icons/fa";
 import { BsBootstrap } from "react-icons/bs";
-import { TbBrandRedux, TbBrandNextjs, TbBrandTailwind, TbBrandVscode } from "react-icons/tb";
+import { TbBrandTypescript, TbBrandRedux, TbBrandNextjs, TbBrandTailwind, TbBrandVscode } from "react-icons/tb";
 import { SiExpress, SiVisualbasic, SiMongodb, SiSwagger, SiPostman } from "react-icons/si";
 
 export const TECHNOLOGIES = [
@@ -15,6 +15,7 @@ export const TECHNOLOGIES = [
 			{ name: "Sass", icon: <FaSass size={32} /> },
 			{ name: "JS", icon: <IoLogoJavascript size={32} /> },
 			{ name: "jQuery", icon: <DiJqueryLogo size={32} /> },
+			{ name: "TypeScript", icon: <TbBrandTypescript size={32} /> },
 			{ name: "React", icon: <FaReact size={32} /> },
 			{ name: "Redux", icon: <TbBrandRedux size={32} /> },
 			{ name: "Next", icon: <TbBrandNextjs size={32} /> },
