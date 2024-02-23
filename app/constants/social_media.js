@@ -22,7 +22,7 @@ export const SOCIAL_MEDIA = [
 	{
 		id: "mail",
 		icon: <BsFillEnvelopeOpenFill className="text-blue-700 dark:text-slate-50"/>,
-		title: "Send me an email",
+		title: "Envoyer un email",
 		url: "mailto://matthieu83600-pro@outlook.fr"
 	}
 ];
