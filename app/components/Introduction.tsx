@@ -112,7 +112,7 @@ export function IntroSection() {
 								onClick={onClick}
 								tabIndex="0"
 								className="rounded-md bg-blue-700 p-2 text-slate-50"
-								aria-label="Latest projects"
+								aria-label="Derniers projets"
 							>
 								Voir mes derniers projets
 							</Link>
