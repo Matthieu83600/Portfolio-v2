@@ -86,7 +86,6 @@ export function IntroSection() {
 								</span>
 							</p>
 						</div>
-
 						<p
 							tabIndex="0"
 							ref={ref}
@@ -106,6 +105,7 @@ export function IntroSection() {
 								opacity: isInView ? 1 : 0,
 								transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 							}}
+							className="flex flex-col sm:flex-row gap-10"
 						>
 							<Link
 								href="#projects"
@@ -115,6 +115,15 @@ export function IntroSection() {
 								aria-label="Derniers projets"
 							>
 								Voir mes derniers projets
+							</Link>
+							<Link
+								href="https://cvdesignr.com/p/65b8b7a41574e"
+								target="_blank"
+								tabIndex="0"
+								className="rounded-md bg-blue-700 p-2 text-slate-50"
+								aria-label="Mon CV"
+							>
+								Regarder mon CV
 							</Link>
 						</div>
 					</div>
