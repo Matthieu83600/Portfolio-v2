@@ -1,8 +1,9 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import ProgressBarLoader from '../components/ProgressBarLoader';
+import { ProjectCard } from '../components/ProjectCard';
 
-export default function Credits() {
+export default function Projects() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -19,9 +20,11 @@ export default function Credits() {
         <ProgressBarLoader />
       ) : (
         <div className='container-md'>
-        {/* Contenu de votre page une fois le chargement terminé */}
-        <h1>Crédits</h1>
-      </div>
+          <div className="flex flex-col gap-4 items-center py-5">
+            <h1 className='text-3xl font-bold text-center'>Mes projets</h1>
+          </div> 
+          <ProjectCard />
+        </div>
     )}
   </div>
   );

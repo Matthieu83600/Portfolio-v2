@@ -5,6 +5,7 @@ import ProgressBarLoader from './components/ProgressBarLoader';
 import { IntroSection } from './components/Introduction';
 import { AboutSection } from './components/About';
 import { TechnologiesSection } from './components/Technologies';
+import { ProjectsSection } from './components/ProjectsSection';
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -26,6 +27,7 @@ export default function Home() {
           <IntroSection />
           <AboutSection />
           <TechnologiesSection />
+          <ProjectsSection />
         </div>
     )}
     </div>

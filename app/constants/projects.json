@@ -1,0 +1,282 @@
+{
+    "lastprojects": [
+        {
+            "id": "lastproject1",
+            "title": "Portfolio V2",
+            "category": "Next",
+            "description": "J'ai décidé de refaire mon portfolio précédemment créé lors de ma formation OpenClassrooms. Pour l'améliorer, j'ai donc choisi d'apprendre et d'utiliser Next.js comme me l'a conseillé l'évaluateur de mon dernier projet.",
+            "tags": ["Next", "TypeScript", "Tailwind CSS", "Framer-motion", "Next-themes", "React-icons", "React-loading", "React-responsive-carousel", "Emailjs", "JSON"],
+            "pictures": [
+              "/assets/projects/a-venir/mock0.webp",
+              "/assets/projects/a-venir/mock1.webp",
+              "/assets/projects/a-venir/mock2.webp",
+              "/assets/projects/a-venir/mock3.webp"
+            ],
+            "site": "https://matthieubonjour.fr/"
+        },
+        {
+            "id": "lastproject2",
+            "title": "Portfolio",
+            "category": "React",
+            "description": "Dernier projet de mon parcours intégrateur web avec OpenClassrooms et première version de mon portfolio. L'aboutissement d'une formation de 9 mois qui se concrétise par la mise en avant de tout ce que j'ai appris.",
+            "tags": ["React", "React-router", "Sass", "Styled-components", "React-responsive-carousel", "Emailjs", "Prettier", "JSON", "Figma"],
+            "pictures": [
+              "/assets/projects/my-portfolio/mock0.webp",
+              "/assets/projects/my-portfolio/mock1.webp",
+              "/assets/projects/my-portfolio/mock2.webp",
+              "/assets/projects/my-portfolio/mock3.webp",
+              "/assets/projects/my-portfolio/mock4.webp",
+              "/assets/projects/my-portfolio/mock5.webp",
+              "/assets/projects/my-portfolio/mock6.webp",
+              "/assets/projects/my-portfolio/mock7.webp"
+            ],
+            "github":"https://github.com/Matthieu83600/Portfolio"
+        },
+        {
+            "id": "lastproject3",
+            "title": "ArgentBank",
+            "category": "React",
+            "description": "Le projet 11 du parcours Intégrateur Web d'OpenClassrooms consiste à implémenter le front-end d'une application bancaire : Argent Bank en utilisant React.",
+            "mission": "Je rejoins l'agence Webonzaï pour un stage en tant que développeur junior. Romain, mon maître de stage, me demande d'actualiser la page Internet de Riding Cities en créant une nouvelle section appelée : Les Membres Fondateurs ; ainsi que la modification de la section existante des plannings en introduisant deux plannings : l'un pour les enfants et l'autre pour les adultes. Et, ainsi que la mise en place du CSS existant sur les nouveaux éléments.",
+            "tags": ["React", "React-router", "Redux", "Sass", "API", "Swagger"],
+            "pictures": [
+              "/assets/projects/argent-bank/mock0.webp",
+              "/assets/projects/argent-bank/mock1.webp",
+              "/assets/projects/argent-bank/mock2.webp",
+              "/assets/projects/argent-bank/mock3.webp",
+              "/assets/projects/argent-bank/mock4.webp",
+              "/assets/projects/argent-bank/mock5.webp",
+              "/assets/projects/argent-bank/mock6.webp",
+              "/assets/projects/argent-bank/mock7.webp",
+              "/assets/projects/argent-bank/mock8.webp",
+              "/assets/projects/argent-bank/mock9.webp"
+            ],
+            "site": "https://matthieu83600-argent-bank-front-end.vercel.app/",
+            "github": "https://github.com/Matthieu83600/ArgentBank-FrontEnd"
+        }
+    ],
+    "projects": [
+        {
+          "id": "project1",
+          "title": "Riding Cities",
+          "category": "HTML",
+          "description": "Le projet 2 du parcours Intégrateur Web d'OpenClassrooms nous permet de découvrir le langage HTML au travers du site Internet de Riding Cities. ",
+          "tags": ["HTML", "CSS"],
+          "pictures": [
+            "/assets/projects/riding-cities/mock0.webp",
+            "/assets/projects/riding-cities/mock1.webp",
+            "/assets/projects/riding-cities/mock2.webp",
+            "/assets/projects/riding-cities/mock3.webp",
+            "/assets/projects/riding-cities/mock4.webp",
+            "/assets/projects/riding-cities/mock5.webp",
+            "/assets/projects/riding-cities/mock6.webp",
+            "/assets/projects/riding-cities/mock7.webp"
+          ],
+          "site": "https://matthieu83600.github.io/Riding-Cities/",
+          "github": "https://github.com/Matthieu83600/Riding-Cities"
+        },
+        {
+          "id": "project2",
+          "title": "Booki",
+          "category": "HTML",
+          "description": "Le projet 3 du parcours Intégrateur Web d'OpenClassrooms nous permet d'intégrer l'interface du site de Booki en utilisant du code HTML et CSS.",
+          "tags": ["HTML", "CSS", "Responsive", "Figma"],
+          "pictures": [
+            "/assets/projects/booki/mock0.webp",
+            "/assets/projects/booki/mock1.webp",
+            "/assets/projects/booki/mock2.webp",
+            "/assets/projects/booki/mock3.webp",
+            "/assets/projects/booki/mock4.webp",
+            "/assets/projects/booki/mock5.webp",
+            "/assets/projects/booki/mock6.webp",
+            "/assets/projects/booki/mock7.webp"
+          ],
+          "site": "https://matthieu83600.github.io/Booki/",
+          "github": "https://github.com/Matthieu83600/Booki"
+        },
+        {
+          "id": "project3",
+          "title": "Ohmyfood",
+          "category": "HTML",
+          "description": "Le projet 4 du parcours Intégrateur Web d'OpenClassrooms consite à intégrer l'interface du site d'Ohmyfood en commençant par la version mobile.",
+          "tags": ["HTML", "Sass", "Responsive", "First Mobile", "Figma", "Git", "GitHub"],
+          "pictures": [
+            "/assets/projects/ohmyfood/mock0.webp",
+            "/assets/projects/ohmyfood/mock1.webp",
+            "/assets/projects/ohmyfood/mock2.webp",
+            "/assets/projects/ohmyfood/mock3.webp",
+            "/assets/projects/ohmyfood/mock4.webp",
+            "/assets/projects/ohmyfood/mock5.webp",
+            "/assets/projects/ohmyfood/mock6.webp",
+            "/assets/projects/ohmyfood/mock7.webp"
+          ],
+          "site": "https://matthieu83600.github.io/OhMyFood/",
+          "github": "https://github.com/Matthieu83600/OhMyFood"
+        },
+        {
+          "id": "project4",
+          "title": "Print It",
+          "category": "JavaScript",
+          "description": "Le projet 5 du parcours Intégrateur Web d'OpenClassrooms nous permet de découvrir le langage JavaScript au travers du site de Print It.",
+          "tags": ["HTML", "CSS", "JavaScript", "VSCode"],
+          "pictures": [
+            "/assets/projects/print-it/mock0.webp",
+            "/assets/projects/print-it/mock1.webp",
+            "/assets/projects/print-it/mock2.webp",
+            "/assets/projects/print-it/mock3.webp",
+            "/assets/projects/print-it/mock4.webp",
+            "/assets/projects/print-it/mock5.webp",
+            "/assets/projects/print-it/mock6.webp",
+            "/assets/projects/print-it/mock7.webp"
+          ],
+          "site": "https://matthieu83600.github.io/Print-It/",
+          "github": "https://github.com/Matthieu83600/Print-It"
+        },
+        {
+          "id": "project5",
+          "title": "Portfolio - Sophie Bluel",
+          "category": "JavaScript",
+          "description": "Le projet 6 du parcours Intégrateur Web d'OpenClassrooms nous emmène sur la conception du site portfolio d'une architecte en utilisant JavaScript et en communiquant avec une API.",
+          "tags": ["HTML", "CSS", "JavaScript", "Figma", "API", "Swagger"],
+          "pictures": [
+            "/assets/projects/portfolio-sophie-bluel/mock0.webp",
+            "/assets/projects/portfolio-sophie-bluel/mock1.webp",
+            "/assets/projects/portfolio-sophie-bluel/mock2.webp",
+            "/assets/projects/portfolio-sophie-bluel/mock3.webp",
+            "/assets/projects/portfolio-sophie-bluel/mock4.webp",
+            "/assets/projects/portfolio-sophie-bluel/mock5.webp",
+            "/assets/projects/portfolio-sophie-bluel/mock6.webp",
+            "/assets/projects/portfolio-sophie-bluel/mock7.webp"
+          ],
+          "github": "https://github.com/Matthieu83600/Portfolio-Sophie-Bluel"
+        },
+        {
+          "id": "project6",
+          "title": "Menu Maker",
+          "category": "Gestion de projet",
+          "description": "Le projet 7 du parcours Intégrateur Web d'OpenClassrooms est différent des autres projets réalisés, il s'agit de planifier le développement du prochain site de notre client Qwenta.",
+          "tags": ["Gestion de projet", "Kanban", "Méthode agile", "Veille technique"],
+          "pictures": [
+            "/assets/projects/menu-maker/mock0.webp",
+            "/assets/projects/menu-maker/mock1.webp",
+            "/assets/projects/menu-maker/mock2.webp",
+            "/assets/projects/menu-maker/mock3.webp",
+            "/assets/projects/menu-maker/mock4.webp",
+            "/assets/projects/menu-maker/mock5.webp",
+            "/assets/projects/menu-maker/mock6.webp"
+          ],
+          "github": "https://github.com/Matthieu83600/Menu-Maker"
+        },
+        {
+          "id": "project7",
+          "title": "Kasa",
+          "category": "React",
+          "description": "Le projet 8 du parcours Intégrateur Web d'OpenClassrooms consiste à développer la nouvelle plateforme web de Kasa en utilisant React.",
+          "tags": ["React", "React-Router", "Sass", "Responsive", "Figma", "JSON"],
+          "pictures": [
+            "/assets/projects/kasa/mock0.webp",
+            "/assets/projects/kasa/mock1.webp",
+            "/assets/projects/kasa/mock2.webp",
+            "/assets/projects/kasa/mock3.webp",
+            "/assets/projects/kasa/mock4.webp",
+            "/assets/projects/kasa/mock5.webp",
+            "/assets/projects/kasa/mock6.webp",
+            "/assets/projects/kasa/mock7.webp"
+          ],
+          "site": "https://kasa-matthieubonjour.vercel.app/",
+          "github": "https://github.com/Matthieu83600/Kasa"
+        },
+        {
+          "id": "project8",
+          "title": "Nina Carducci",
+          "category": "SEO",
+          "description": "Le projet 9 du parcours Intégrateur Web d'OpenClassrooms consiste à améliorer les performances et le référencement naturel du site d'un client.",
+          "tags": ["HTML", "CSS", "JavaScript", "Responsive", "SEO"],
+          "pictures": [
+            "/assets/projects/nina-carducci/mock0.webp",
+            "/assets/projects/nina-carducci/mock1.webp",
+            "/assets/projects/nina-carducci/mock2.webp",
+            "/assets/projects/nina-carducci/mock3.webp",
+            "/assets/projects/nina-carducci/mock4.webp",
+            "/assets/projects/nina-carducci/mock5.webp",
+            "/assets/projects/nina-carducci/mock6.webp",
+            "/assets/projects/nina-carducci/mock7.webp"
+          ],
+          "site": "https://matthieu83600.github.io/Nina-Carducci/",
+          "github": "https://github.com/Matthieu83600/Nina-Carducci"
+        },
+        {
+          "id": "project9",
+          "title": "724 events",
+          "category": "Debug",
+          "description": "Le projet 10 du parcours Intégrateur Web consiste à débugger le site d'une agence d'événementiel appelée 724events.",
+          "tags": ["React", "Tests unitaires", "Tests d'intégration", "Debug", "Chrome DevTools"],
+          "pictures": [
+            "/assets/projects/724events/mock0.webp",
+            "/assets/projects/724events/mock1.webp",
+            "/assets/projects/724events/mock2.webp",
+            "/assets/projects/724events/mock3.webp",
+            "/assets/projects/724events/mock4.webp",
+            "/assets/projects/724events/mock5.webp",
+            "/assets/projects/724events/mock6.webp",
+            "/assets/projects/724events/mock7.webp"
+          ],
+          "site": "https://724events-matthieubonjour.vercel.app/",
+          "github": "https://github.com/Matthieu83600/724events"
+        },
+        {
+          "id": "project10",
+          "title": "Argent Bank",
+          "category": "React",
+          "description": "Le projet 11 du parcours Intégrateur Web d'OpenClassrooms consiste à implémenter le front-end d'une application bancaire : Argent Bank en utilisant React.",
+          "tags": ["React", "React-Router", "Redux", "Sass", "API", "Swagger", "Responsive"],
+          "pictures": [
+            "/assets/projects/argent-bank/mock0.webp",
+            "/assets/projects/argent-bank/mock1.webp",
+            "/assets/projects/argent-bank/mock2.webp",
+            "/assets/projects/argent-bank/mock3.webp",
+            "/assets/projects/argent-bank/mock4.webp",
+            "/assets/projects/argent-bank/mock5.webp",
+            "/assets/projects/argent-bank/mock6.webp",
+            "/assets/projects/argent-bank/mock7.webp",
+            "/assets/projects/argent-bank/mock8.webp",
+            "/assets/projects/argent-bank/mock9.webp"
+          ],
+          "site": "https://matthieu83600-argent-bank-front-end.vercel.app/",
+          "github": "https://github.com/Matthieu83600/ArgentBank-FrontEnd"
+        },
+        {
+          "id": "project11",
+          "title": "Mon Portfolio",
+          "category": "React",
+          "description": "Le projet 12 et dernier projet du parcours Intégrateur Web d'OpenClassrooms consiste à créer et mettre en ligne son site portfolio.",
+          "tags": ["React", "React-router", "Sass", "Styled-components", "React-responsive-carousel", "Emailjs", "Prettier", "JSON", "Figma"],
+          "pictures": [
+            "/assets/projects/my-portfolio/mock0.webp",
+            "/assets/projects/my-portfolio/mock1.webp",
+            "/assets/projects/my-portfolio/mock2.webp",
+            "/assets/projects/my-portfolio/mock3.webp",
+            "/assets/projects/my-portfolio/mock4.webp",
+            "/assets/projects/my-portfolio/mock5.webp",
+            "/assets/projects/my-portfolio/mock6.webp",
+            "/assets/projects/my-portfolio/mock7.webp"
+          ],
+          "github": "https://github.com/Matthieu83600/Portfolio"
+        },
+        {
+          "id": "project12",
+          "title": "Mon Portfolio 2.0",
+          "description": "Pour un meilleur référencement naturel, et une lecture plus facile des robots d'indexation, j'ai décidé de redévelopper mon portfolio avec Next.js. avec les conseils de mon évaluateur lors de mon dernier projet avec OpenClassrooms.",
+          "mission": "Elle consiste simplement à améliorer mon portfolio et à apprendre à utiliser le framework Next.js ainsi que, le framework Tailwind CSS.",
+          "competences": ["Concevoir un site avec Next.js", "Apprendre à utiliser Tailwind CSS"],
+          "tags": ["Next", "TypeScript", "Tailwind CSS", "Framer-motion", "Next-themes", "React-icons", "React-loading", "React-responsive-carousel", "Emailjs", "JSON"],
+          "pictures": [
+            "/assets/projects/a-venir/mock0.webp",
+            "/assets/projects/a-venir/mock1.webp",
+            "/assets/projects/a-venir/mock2.webp",
+            "/assets/projects/a-venir/mock3.webp"
+          ],
+          "site": "https://matthieubonjour.fr/"
+        }
+    ]
+}
