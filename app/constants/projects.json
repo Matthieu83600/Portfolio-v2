@@ -266,6 +266,7 @@
         {
           "id": "project12",
           "title": "Mon Portfolio 2.0",
+          "category": "Next",
           "description": "Pour un meilleur référencement naturel, et une lecture plus facile des robots d'indexation, j'ai décidé de redévelopper mon portfolio avec Next.js. avec les conseils de mon évaluateur lors de mon dernier projet avec OpenClassrooms.",
           "mission": "Elle consiste simplement à améliorer mon portfolio et à apprendre à utiliser le framework Next.js ainsi que, le framework Tailwind CSS.",
           "competences": ["Concevoir un site avec Next.js", "Apprendre à utiliser Tailwind CSS"],
