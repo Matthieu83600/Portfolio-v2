@@ -19,7 +19,7 @@ export function Filter({ onClick = (f) => f, activeCategory }) {
 		<LazyMotion features={domAnimation}>
 			<div
 				ref={animRef}
-				className="flex items-start flex-col sm:flex-row sm:items-center gap-4 my-10"
+				className="flex items-start flex-col sm:items-center gap-4 my-10"
 				style={{
 					opacity: isInView ? 1 : 0,
 					transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 1s"
@@ -28,7 +28,7 @@ export function Filter({ onClick = (f) => f, activeCategory }) {
 				<h3 aria-label="Filter projects" tabIndex="0" className="font-bold text-xl">
 					Filtrer par :
 				</h3>
-				<div className="flex items-center gap-4">
+				<div className="flex flex-wrap items-center gap-4">
 					<FilterButton
 						onClick={() => onClick(undefined)}
 						label="Tous"

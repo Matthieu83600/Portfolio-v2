@@ -6,6 +6,7 @@ import { IntroSection } from './components/Introduction';
 import { AboutSection } from './components/About';
 import { TechnologiesSection } from './components/Technologies';
 import { ProjectsSection } from './components/ProjectsSection';
+import { ContactSection } from './components/Contact';
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -28,6 +29,7 @@ export default function Home() {
           <AboutSection />
           <TechnologiesSection />
           <ProjectsSection />
+          <ContactSection />
         </div>
     )}
     </div>
