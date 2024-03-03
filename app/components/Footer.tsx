@@ -31,12 +31,6 @@ export function Footer() {
                         >
                             Mentions légales
                         </Link>
-                        <Link
-                        href={SITE_ROUTES.credits}
-                        className="icon-link-btn"
-                        >
-                            Crédits
-                        </Link>
                     </div>
 					<p className="font-light">Copyright &copy; {year} Matthieu Bonjour</p>	
 					<SocialMedia />
