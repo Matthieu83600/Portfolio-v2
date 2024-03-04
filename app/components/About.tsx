@@ -26,6 +26,7 @@ export function AboutSection() {
                 
                 >
                         <Image
+							unoptimized
                             src={moi || "./assets/moi.webp"}
                             width={300}
                             height={0}
