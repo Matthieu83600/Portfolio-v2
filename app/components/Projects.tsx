@@ -1,9 +1,8 @@
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 import Link from "next/link";
-import Image from "next/image";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
+import CarouselComponent from './Carousel';
+import GalleryComponent from "./Gallery";
 import { VscSourceControl } from "react-icons/vsc";
 import { FiExternalLink } from "react-icons/fi";
 import { jsonData } from '../utils/dataHandler';
@@ -32,29 +31,7 @@ export function LastProjects() {
                 >
                     <figure>
                     <div className="w-full h-full my-5 pl-5 sm:pl-10">
-                            <Carousel
-                                key={project.id}
-                                ariaLabel="Carrousel"
-                                autoPlay
-                                infiniteLoop
-                                interval={3000}
-                                showArrows={false}
-                                showIndicators={false}
-                                showStatus={false}
-                                showThumbs={false}
-                                stopOnHover={false}
-                                width="90%"
-                            >
-                                {project.pictures.map((image, index) => (
-                                    <Image 
-                                        key={index} 
-                                        src={image} 
-                                        alt="Vues du site internet du projet" 
-                                        width={300}
-                                        height={300}
-                                    />
-                                ))}
-                            </Carousel>
+                        <GalleryComponent data={[project]}/>
                     </div>
                     </figure>
                     <div className="flex-[2] px-5 py-6 text-center flex flex-col gap-10">

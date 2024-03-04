@@ -10,7 +10,7 @@ export const Metadata = {
 	},
 	description: description,
 	icons: {
-		icon: "/logo.svg"
+		icon: "/assets/logo.svg"
 	},
 	keywords: [
 		"Matthieu Bonjour",

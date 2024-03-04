@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import Image from "next/image";
+import moi from "../../public/assets/moi.webp"
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { HeadingDivider } from "./HeadingDivider";
 import { TimeLine } from "./Timeline";
@@ -25,7 +26,7 @@ export function AboutSection() {
                 
                 >
                         <Image
-                            src="/moi.webp"
+                            src={moi || "./assets/moi.webp"}
                             width={300}
                             height={0}
                             style={{width:'320px', height:'auto'}}

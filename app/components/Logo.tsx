@@ -22,7 +22,7 @@ export function Logo() {
 				{pathname === SITE_ROUTES.home ? (
 					<>
                     <Image 
-                        src="/logo.svg"
+                        src="/assets/logo.svg"
                         width={0}
                         height={0}
                         style={{width:'70px', height: "auto" }}
@@ -33,7 +33,7 @@ export function Logo() {
 				) : (
 					<Link href={SITE_ROUTES.home} aria-label="Go to home page" role="link">
 						<Image 
-                            src="/logo.svg"
+                            src="/assets/logo.svg"
                             width={0}
                             height={0}
                             style={{width:'70px', height: "auto" }}
