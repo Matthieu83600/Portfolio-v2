@@ -31,6 +31,7 @@ const GalleryComponent = ({ data }) => {
         <ImageGallery
             className=""
             items={images}
+            showFullscreenButton={false}
             showPlayButton={false}
             showThumbnails={false}
             showIndex

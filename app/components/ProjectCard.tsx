@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { domAnimation, LazyMotion, useInView } from "framer-motion";
+import { domAnimation, LazyMotion } from "framer-motion";
 import Link from "next/link";
 import { VscSourceControl } from "react-icons/vsc";
 import { FiExternalLink } from "react-icons/fi";

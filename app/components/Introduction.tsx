@@ -49,7 +49,7 @@ export function IntroSection() {
 							}}
 						>
 							<p className="text-center leading-[145%]">
-								Salut, je suis <mark className="bg-blue-700 dark:bg-sky-300">Matthieu</mark> un développeur full-stack junior <mark className="bg-blue-700 dark:bg-sky-300">passionné</mark>.
+								Salut, je suis <mark className="bg-blue-700 dark:bg-sky-300">Matthieu</mark> un développeur front-end junior <mark className="bg-blue-700 dark:bg-sky-300">passionné</mark>.
 							</p>
 						</h1>
 
