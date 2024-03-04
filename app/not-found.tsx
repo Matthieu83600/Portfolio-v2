@@ -4,7 +4,8 @@ export default function Custom404() {
     return (
         <div className="container-md flex flex-col items-center mt-12 mb-12">
             <Image
-                src="/404-page-not-found.png"
+                unoptimized
+                src="/assets/404-page-not-found.png"
                 width={400}
                 height={400} 
                 alt="image d'erreur"
