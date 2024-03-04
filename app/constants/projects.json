@@ -7,10 +7,10 @@
             "description": "J'ai décidé de refaire mon portfolio précédemment créé lors de ma formation OpenClassrooms. Pour l'améliorer, j'ai donc choisi d'apprendre et d'utiliser Next.js comme me l'a conseillé l'évaluateur de mon dernier projet.",
             "tags": ["Next", "TypeScript", "Tailwind CSS", "Framer-motion", "Next-themes", "React-icons", "React-loading", "React-responsive-carousel", "Emailjs", "JSON"],
             "pictures": [
-              "/assets/projects/a-venir/mock0.webp",
-              "/assets/projects/a-venir/mock1.webp",
-              "/assets/projects/a-venir/mock2.webp",
-              "/assets/projects/a-venir/mock3.webp"
+              "/assets/projects/portfolio-v2/mock0.webp",
+              "/assets/projects/portfolio-v2/mock1.webp",
+              "/assets/projects/portfolio-v2/mock2.webp",
+              "/assets/projects/portfolio-v2/mock3.webp"
             ],
             "site": "https://matthieubonjour.fr/"
         },
@@ -272,10 +272,10 @@
           "competences": ["Concevoir un site avec Next.js", "Apprendre à utiliser Tailwind CSS"],
           "tags": ["Next", "TypeScript", "Tailwind CSS", "Framer-motion", "Next-themes", "React-icons", "React-loading", "React-responsive-carousel", "Emailjs", "JSON"],
           "pictures": [
-            "/assets/projects/a-venir/mock0.webp",
-            "/assets/projects/a-venir/mock1.webp",
-            "/assets/projects/a-venir/mock2.webp",
-            "/assets/projects/a-venir/mock3.webp"
+            "/assets/projects/portfolio-v2/mock0.webp",
+            "/assets/projects/portfolio-v2/mock1.webp",
+            "/assets/projects/portfolio-v2/mock2.webp",
+            "/assets/projects/portfolio-v2/mock3.webp"
           ],
           "site": "https://matthieubonjour.fr/"
         }
