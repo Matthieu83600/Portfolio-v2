@@ -117,7 +117,7 @@ export function IntroSection() {
 								Voir mes derniers projets
 							</Link>
 							<Link
-								href="https://cvdesignr.com/p/65b8b7a41574e"
+								href="https://cvdesignr.com/p/65770bab74d9f"
 								target="_blank"
 								tabIndex="0"
 								className="rounded-md bg-blue-700 p-2 text-slate-50"
