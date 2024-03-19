@@ -1,5 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react';
+import Layout from './layout';
 import ProgressBarLoader from '../components/ProgressBarLoader';
 import { ProjectCard } from '../components/ProjectCard';
 import { Filter } from '../components/Filter';
@@ -21,6 +22,7 @@ export default function Projects() {
   };
 
   return (
+    <Layout>
     <div className='container-md'>
       {loading ? (
         <ProgressBarLoader />
@@ -34,5 +36,6 @@ export default function Projects() {
         </div>
     )}
   </div>
+  </Layout>
   );
 };

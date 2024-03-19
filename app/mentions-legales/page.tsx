@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useEffect, useState } from "react";
+import Layout from './layout';
 import ProgressBarLoader from '../components/ProgressBarLoader';
 import { MentionsLegales } from "../components/mentions";
 
@@ -16,6 +17,7 @@ export default function Mentions() {
   }, []);
 
   return (
+    <Layout>
     <div className='container-md'>
       {loading ? (
         <ProgressBarLoader />
@@ -25,5 +27,6 @@ export default function Mentions() {
         </div>
     )}
   </div>
+  </Layout>
   );
 };
