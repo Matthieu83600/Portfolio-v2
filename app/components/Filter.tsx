@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { AiFillHtml5 } from "react-icons/ai";
-import { TbBrandJavascript, TbBrandNextjs, TbSeo } from "react-icons/tb";
+import { TbBrandJavascript, TbBrandNextjs, TbSeo, TbBrandVue } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import { VscDebugAll } from "react-icons/vsc";
 import { FilterButton } from "../components/FilterButton";
@@ -63,6 +63,13 @@ export function Filter({ onClick = (f) => f, activeCategory }) {
                         active={activeCategory === "Next"}
 					>
 						<TbBrandNextjs size="20" />
+					</FilterButton>
+					<FilterButton
+						onClick={() => onClick("Vue")}
+						label="Next"
+                        active={activeCategory === "Vue"}
+					>
+						<TbBrandVue size="20" />
 					</FilterButton>
 					<FilterButton
 						onClick={() => onClick("SEO")}

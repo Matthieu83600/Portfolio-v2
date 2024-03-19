@@ -63,7 +63,7 @@ export function LastProjects() {
                                     href={project.github}
                                     target="_blank"
                                     className="flex items-center gap-5 hover:bg-gray-300 dark:hover:bg-blue-700 rounded-lg p-2"
-                                    title="Go to Github repository"
+                                    title="Aller voir le repository"
                                 >
                                     <VscSourceControl />
                                     <span>Source</span>
@@ -74,7 +74,7 @@ export function LastProjects() {
                                     href={project.site}
                                     target="_blank"
                                     className="flex items-center gap-5 hover:bg-gray-300 dark:hover:bg-blue-700 rounded-lg p-2"
-                                    title="Go to live address"
+                                    title="Consulter le site"
                                 >
                                     <FiExternalLink />
                                     <span>Demo</span>

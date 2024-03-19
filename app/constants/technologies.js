@@ -3,8 +3,9 @@ import { DiCss3, DiJqueryLogo, DiVisualstudio } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaSass, FaReact, FaNode, FaGitAlt, FaFigma, FaTrello, FaSlack } from "react-icons/fa";
 import { BsBootstrap } from "react-icons/bs";
-import { TbBrandTypescript, TbBrandRedux, TbBrandNextjs, TbBrandTailwind, TbBrandVscode } from "react-icons/tb";
+import { TbBrandTypescript, TbBrandRedux, TbBrandNextjs, TbBrandVue, TbBrandTailwind, TbBrandGitlab, TbBrandVscode } from "react-icons/tb";
 import { SiExpress, SiVisualbasic, SiMongodb, SiSwagger, SiPostman } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 export const TECHNOLOGIES = [
 	{
@@ -19,6 +20,7 @@ export const TECHNOLOGIES = [
 			{ name: "React", icon: <FaReact size={32} /> },
 			{ name: "Redux", icon: <TbBrandRedux size={32} /> },
 			{ name: "Next", icon: <TbBrandNextjs size={32} /> },
+			{ name: "Vue", icon: <TbBrandVue size={32}/> },
 			{ name: "Tailwind CSS", icon: <TbBrandTailwind size={32} /> },
 			{ name: "Bootstrap", icon: <BsBootstrap size={32} /> },
 		]
@@ -40,6 +42,7 @@ export const TECHNOLOGIES = [
 		category: "Bases de données",
 		items: [
 			{ name: "MongoDB", icon: <SiMongodb size={32} /> },
+			{ name: "Postgresql", icon: <BiLogoPostgresql size={32}/> }
 		]
 	},
 	{
@@ -47,6 +50,7 @@ export const TECHNOLOGIES = [
 		items: [
 			{ name: "Git", icon: <FaGitAlt size={32} /> },
 			{ name: "Github", icon: <AiFillGithub size={32} /> },
+			{ name: "Gitlab", icon: <TbBrandGitlab size={32}/> }
 		]
 	},
 	{

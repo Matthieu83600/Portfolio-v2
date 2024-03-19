@@ -2,10 +2,24 @@
     "lastprojects": [
         {
             "id": "lastproject1",
+            "title": "Eternal Twin - DinoRPG",
+            "category": "Vue",
+            "description": "J'ai rejoint un projet communautaire open source pour continuer à développer mes compétences, apprendre à travailler en équipe, et découvrir de nouveaux langages. J'essaye de contribuer autant sur la partie front que la partie back du projet.",
+            "tags": ["Vue", "TypeScript", "Nodejs", "Express", "API", "Postgresql"],
+            "pictures": [
+              "/assets/projects/eternal-twin/mock0.webp",
+              "/assets/projects/eternal-twin/mock1.webp",
+              "/assets/projects/eternal-twin/mock2.webp"
+            ],
+            "github": "https://gitlab.com/eternaltwin/dinorpg/dinorpg",
+            "site": "https://eternaltwin.org/"
+        },
+        {
+            "id": "lastproject2",
             "title": "Portfolio V2",
             "category": "Next",
             "description": "J'ai décidé de refaire mon portfolio précédemment créé lors de ma formation OpenClassrooms. Pour l'améliorer, j'ai donc choisi d'apprendre et d'utiliser Next.js comme me l'a conseillé l'évaluateur de mon dernier projet.",
-            "tags": ["Next", "TypeScript", "Tailwind CSS", "Framer-motion", "Next-themes", "React-icons", "React-loading", "React-responsive-carousel", "Emailjs", "JSON"],
+            "tags": ["Next", "TypeScript", "Tailwind CSS", "Framer-motion", "Next-themes", "React-icons", "React-loading", "React-image-gallery", "Emailjs", "JSON"],
             "pictures": [
               "/assets/projects/portfolio-v2/mock0.webp",
               "/assets/projects/portfolio-v2/mock1.webp",
@@ -15,7 +29,7 @@
             "site": "https://matthieubonjour.fr/"
         },
         {
-            "id": "lastproject2",
+            "id": "lastproject3",
             "title": "Portfolio",
             "category": "React",
             "description": "Dernier projet de mon parcours intégrateur web avec OpenClassrooms et première version de mon portfolio. L'aboutissement d'une formation de 9 mois qui se concrétise par la mise en avant de tout ce que j'ai appris.",
@@ -31,28 +45,6 @@
               "/assets/projects/my-portfolio/mock7.webp"
             ],
             "github":"https://github.com/Matthieu83600/Portfolio"
-        },
-        {
-            "id": "lastproject3",
-            "title": "ArgentBank",
-            "category": "React",
-            "description": "Le projet 11 du parcours Intégrateur Web d'OpenClassrooms consiste à implémenter le front-end d'une application bancaire : Argent Bank en utilisant React.",
-            "mission": "Je rejoins l'agence Webonzaï pour un stage en tant que développeur junior. Romain, mon maître de stage, me demande d'actualiser la page Internet de Riding Cities en créant une nouvelle section appelée : Les Membres Fondateurs ; ainsi que la modification de la section existante des plannings en introduisant deux plannings : l'un pour les enfants et l'autre pour les adultes. Et, ainsi que la mise en place du CSS existant sur les nouveaux éléments.",
-            "tags": ["React", "React-router", "Redux", "Sass", "API", "Swagger"],
-            "pictures": [
-              "/assets/projects/argent-bank/mock0.webp",
-              "/assets/projects/argent-bank/mock1.webp",
-              "/assets/projects/argent-bank/mock2.webp",
-              "/assets/projects/argent-bank/mock3.webp",
-              "/assets/projects/argent-bank/mock4.webp",
-              "/assets/projects/argent-bank/mock5.webp",
-              "/assets/projects/argent-bank/mock6.webp",
-              "/assets/projects/argent-bank/mock7.webp",
-              "/assets/projects/argent-bank/mock8.webp",
-              "/assets/projects/argent-bank/mock9.webp"
-            ],
-            "site": "https://matthieu83600-argent-bank-front-end.vercel.app/",
-            "github": "https://github.com/Matthieu83600/ArgentBank-FrontEnd"
         }
     ],
     "projects": [
@@ -270,7 +262,7 @@
           "description": "Pour un meilleur référencement naturel, et une lecture plus facile des robots d'indexation, j'ai décidé de redévelopper mon portfolio avec Next.js. avec les conseils de mon évaluateur lors de mon dernier projet avec OpenClassrooms.",
           "mission": "Elle consiste simplement à améliorer mon portfolio et à apprendre à utiliser le framework Next.js ainsi que, le framework Tailwind CSS.",
           "competences": ["Concevoir un site avec Next.js", "Apprendre à utiliser Tailwind CSS"],
-          "tags": ["Next", "TypeScript", "Tailwind CSS", "Framer-motion", "Next-themes", "React-icons", "React-loading", "React-responsive-carousel", "Emailjs", "JSON"],
+          "tags": ["Next", "TypeScript", "Tailwind CSS", "Framer-motion", "Next-themes", "React-icons", "React-loading", "React-image-gallery", "Emailjs", "JSON"],
           "pictures": [
             "/assets/projects/portfolio-v2/mock0.webp",
             "/assets/projects/portfolio-v2/mock1.webp",
@@ -278,6 +270,20 @@
             "/assets/projects/portfolio-v2/mock3.webp"
           ],
           "site": "https://matthieubonjour.fr/"
-        }
+        },
+        {
+          "id": "project13",
+          "title": "Eternal Twin - DinoRPG",
+          "category": "Vue",
+          "description": "J'ai rejoint un projet communautaire open source pour continuer à développer mes compétences, apprendre à travailler en équipe, et découvrir de nouveaux langages. J'essaye de contribuer autant sur la partie front que la partie back du projet.",
+          "tags": ["Vue", "TypeScript", "Nodejs", "Express", "API", "Postgresql"],
+          "pictures": [
+            "/assets/projects/eternal-twin/mock0.webp",
+            "/assets/projects/eternal-twin/mock1.webp",
+            "/assets/projects/eternal-twin/mock2.webp"
+          ],
+          "github": "https://gitlab.com/eternaltwin/dinorpg/dinorpg",
+          "site": "https://eternaltwin.org/"
+      }
     ]
 }
